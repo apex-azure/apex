@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
-[Route("[controller]")]
+[Route("v1/[controller]")]
 public class ProductsController : ControllerBase
 {
     [HttpGet]
