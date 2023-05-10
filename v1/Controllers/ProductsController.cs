@@ -8,7 +8,7 @@ public class ProductsController : ControllerBase
     public IEnumerable<string> AllProducts()
     {
         return new string[]{
-            "Product 1",
+            "Product 12",
             "Product 2"
         };
     }
